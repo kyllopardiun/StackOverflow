@@ -1,12 +1,11 @@
 
 package stack;
-
-/**
- *
- * @author Rodrigo
- */
-public class A {
+public  class A {
        public void getClasse(){
-               System.out.println("class = " + this.getClass());
+               System.out.println("classe = " + this.getClass());
+       }
+       
+       public static void getStaticClasse(){
+               System.out.println("class estática= " + A.class.getName());
        }
 }
